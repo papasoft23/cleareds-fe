@@ -1,8 +1,8 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest } from 'next/server';
 import { fetchContentfulData } from '@/integrations/contentful/client';
 import { GET_PAGE_WITH_TEASERS } from '@/integrations/contentful/graphql/queries';
 
-export async function GET(request: NextRequest, response: NextResponse) {
+export async function GET(request: NextRequest) {
     const searchParams = request.nextUrl.searchParams;
     const slug = searchParams.get('pageUrl');
     if (!slug || typeof slug !== 'string') {
