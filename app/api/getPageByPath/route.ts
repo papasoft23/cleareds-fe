@@ -25,7 +25,7 @@ export async function GET(request: NextApiRequest, response: NextApiResponse) {
         }
     } catch (error) {
         return Response.json(
-            { error: 'Failed to fetch content' },
+            { error: 'Failed to fetch content' + JSON.stringify(error) },
             { status: 500 }
         );
     }

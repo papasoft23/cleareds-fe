@@ -23,12 +23,6 @@ export type LayoutParams = {
     }
 };
 
-interface MenuItem {
-    title: string;
-    link?: string; // Optional in case a parent menu item doesn't have a link
-    children?: MenuItem[]; // Optional for items without submenus
-}
-
 export default async function LocaleLayout(
     {
         children,

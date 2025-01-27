@@ -7,7 +7,7 @@ export default async function DefaultPage({ params }) {
 
     const pageUrl = 'home'; // url from CMS to get homepage data
     const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/getPageByPath?pageUrl=${pageUrl}`);
-    if (!routing.locales.includes(locale as any) && !res.ok) {
+    if (!routing.locales.includes(locale) && !res.ok) {
         notFound();
     }
     const pageData = await res.json();
