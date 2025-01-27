@@ -1,12 +1,15 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import { NextRequest, NextResponse } from 'next/server';
 import { fetchContentfulData } from '@/integrations/contentful/client';
 import { GET_PAGE_WITH_TEASERS } from '@/integrations/contentful/graphql/queries';
 
-export async function GET(request: NextApiRequest, response: NextApiResponse) {
+export async function GET(request: NextRequest, response: NextResponse) {
     const searchParams = request.nextUrl.searchParams;
     const slug = searchParams.get('pageUrl');
     if (!slug || typeof slug !== 'string') {
-        return response.status(400).json({ error: 'Invalid request' });
+        return Response.json(
+            { error: 'Invalid request' },
+            {status: 400}
+        );
     }
 
     try {
