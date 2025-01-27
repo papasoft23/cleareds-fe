@@ -1,6 +1,9 @@
 import { notFound } from 'next/navigation';
 
-export default async function DefaultPage({ params }) {
+interface PageParams {
+    slug: [];  // Adjust based on your route segments
+}
+export default async function Page({ params }: { params: PageParams }) {
     const {slug} = await params;
     const path = slug.join('/');
     const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/getPageByPath?pageUrl=${path}`);
@@ -10,7 +13,6 @@ export default async function DefaultPage({ params }) {
     }
 
     const pageData = await res.json();
-    console.log(pageData);
 
     return (
         <div>
