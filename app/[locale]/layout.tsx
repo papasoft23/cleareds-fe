@@ -43,7 +43,7 @@ export default async function LocaleLayout(
                     <Navigation type={"megamenu"} menuData={MenuDataSource} locale={ locale } />
                     <div className="header-icons flex justify-between items-center pl-4 gap-16">
                         <Account title={"My Account"} isLoggedIn={true} />
-                        <Minicart title={"Minicart"} productsCount={25} />
+                        <Minicart title={"Minicart"} productsCount={"25"} />
                     </div>
                 </div>
             </header>

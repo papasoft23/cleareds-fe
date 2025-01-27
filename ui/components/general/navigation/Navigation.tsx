@@ -11,13 +11,15 @@ interface MenuItem {
 }
 
 interface NavigationProps {
-    menuData: MenuItem[];
+    menuData: {} | MenuItem[];
     type: string;
+    locale?: string;
 }
 
 export default async function Navigation({menuData, type, locale} : NavigationProps){
     const menuType = type;
-    const menuItems = locale ? await menuData[0][locale] : await menuData;
+    const menuDataResult = await menuData;
+    const menuItems: [MenuItem] = locale && Array.isArray(menuDataResult) ? menuDataResult[0][locale] : menuDataResult;
     return (
         <nav className={menuType + (menuType !== 'megamenu' ? ' w-full' : '')}>
             <ul className="flex justify-between -mx-2">{

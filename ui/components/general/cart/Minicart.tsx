@@ -4,7 +4,7 @@ import {Link} from '@/i18n/routing';
 interface MinicartProps {
     title: string;
     icon?: string;
-    productsCount?: Number;
+    productsCount?: string;
 }
 
 export default async function Minicart({title, icon, productsCount} : MinicartProps){
