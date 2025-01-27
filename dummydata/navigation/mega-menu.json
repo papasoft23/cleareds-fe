@@ -1,0 +1,134 @@
+[
+  {
+    "de": [
+      {
+        "title": "Start",
+        "link": "/",
+        "children": []
+      },
+      {
+        "title": "Produkte",
+        "link": "/products",
+        "children": [
+          {
+            "title": "Vorlagen",
+            "link": "/products/boilerplates",
+            "children": [
+              {
+                "title": "Cleareds Schaufenster",
+                "link": "/product/cleareds-storefront"
+              },
+              {
+                "title": "Cleareds Verbinden",
+                "link": "/product/cleareds-connect",
+                "label": "in roadmap"
+              }
+            ]
+          },
+          {
+            "title": "Module & Erweiterungen",
+            "link": "/products/modules-and-extensions",
+            "children": [
+              {
+                "title": "Algolia-Contentful Verbinder",
+                "link": "/product/extensions/algolia-contentful"
+              },
+              {
+                "title": "Benutzerdefinierter API-JSON-Daten-Contentful-Verbinder",
+                "link": "/product/extensions/data-connector"
+              }
+            ]
+          }
+        ],
+        "banners": [
+          {
+            "url": "/product/cleareds-storefront",
+            "title": "Cleareds Storefront",
+            "image": "https://images.contentstack.io/v3/assets/bltb1a38d5d52a9d1a1/blt5ce539be498087c9/65d7393f81c0fd178dba40f4/The-storefront-meaning-in-eCommerce_-Then-and-now-2.png"
+          },
+          {
+            "url": "/product/cleareds-connect",
+            "title": "Cleareds Verbinden",
+            "label": "in roadmap",
+            "image": "https://images.contentstack.io/v3/assets/bltb1a38d5d52a9d1a1/blt5ce539be498087c9/65d7393f81c0fd178dba40f4/The-storefront-meaning-in-eCommerce_-Then-and-now-2.png"
+          }
+        ]
+      },
+      {
+        "title": "Über uns",
+        "link": "/company/about-cleareds",
+        "children": []
+      },
+      {
+        "title": "Kontakt",
+        "link": "/company/contact-us",
+        "children": []
+      }
+    ],
+    "en": [
+      {
+        "title": "Home",
+        "link": "/",
+        "children": []
+      },
+      {
+        "title": "Products",
+        "link": "/products",
+        "children": [
+          {
+            "title": "Boilerplates",
+            "link": "/products/boilerplates",
+            "children": [
+              {
+                "title": "Cleareds Storefront",
+                "link": "/product/cleareds-storefront"
+              },
+              {
+                "title": "Cleareds Connect",
+                "link": "/product/cleareds-connect",
+                "label": "in roadmap"
+              }
+            ]
+          },
+          {
+            "title": "Modules & Extensions",
+            "link": "/products/modules-and-extensions",
+            "children": [
+              {
+                "title": "Algolia-Contentful connector",
+                "link": "/product/extensions/algolia-contentful"
+              },
+              {
+                "title": "Custom API JSON Data-Contentful connector",
+                "link": "/product/extensions/data-connector"
+              }
+            ]
+          }
+        ],
+        "banners": [
+          {
+            "url": "/product/cleareds-storefront",
+            "title": "Cleareds Storefront",
+            "image": "https://images.contentstack.io/v3/assets/bltb1a38d5d52a9d1a1/blt5ce539be498087c9/65d7393f81c0fd178dba40f4/The-storefront-meaning-in-eCommerce_-Then-and-now-2.png"
+          },
+          {
+            "url": "/product/cleareds-connect",
+            "title": "Cleareds Connect",
+            "label": "in roadmap",
+            "image": "https://images.contentstack.io/v3/assets/bltb1a38d5d52a9d1a1/blt5ce539be498087c9/65d7393f81c0fd178dba40f4/The-storefront-meaning-in-eCommerce_-Then-and-now-2.png"
+          }
+        ]
+      },
+      {
+        "title": "About",
+        "link": "/company/about-cleareds",
+        "children": []
+      },
+      {
+        "title": "Contact Us",
+        "link": "/company/contact-us",
+        "children": []
+      }
+    ]
+  }
+]

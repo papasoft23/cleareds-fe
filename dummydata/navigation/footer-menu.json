@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Products",
+    "link": "/products",
+    "children": [
+      {
+        "title": "Cleareds Storefront",
+        "link": "/product/cleareds-storefront"
+      },
+      {
+        "title": "Cleareds Connect",
+        "link": "/product/cleareds-connect"
+      }
+    ]
+  },
+  {
+    "title": "Featured integrations",
+    "children": [
+      {
+        "title": "Adobe Commerce (Magento)",
+        "link": "/integrations/magento"
+      },
+      {
+        "title": "Shopify",
+        "link": "/integrations/shopify"
+      },
+      {
+        "title": "Contentful",
+        "link": "/integrations/contentful"
+      },
+      {
+        "title": "Algolia",
+        "link": "/integrations/algolia"
+      }
+    ]
+  },
+  {
+    "title": "Customers",
+    "children": [
+      {
+        "title": "Success stories",
+        "link": "/customers/success-stories"
+      },
+      {
+        "title": "Live projects",
+        "link": "/customers/live-projects"
+      }
+    ]
+  },
+  {
+    "title": "Partners",
+    "children": [
+      {
+        "title": "Become a partner",
+        "link": "/partners/become-a-partner"
+      },
+      {
+        "title": "Technology partners",
+        "link": "/partners/technology-partners"
+      }
+    ]
+  },
+  {
+    "title": "Resources",
+    "children": [
+      {
+        "title": "Guides & reports",
+        "link": "/resources/guides-reports"
+      },
+      {
+        "title": "Blog",
+        "link": "/resources/blog"
+      },
+      {
+        "title": "News",
+        "link": "/resources/news"
+      }
+    ]
+  },
+  {
+    "title": "Company",
+    "children": [
+      {
+        "title": "About Cleareds",
+        "link": "/company/about-cleareds"
+      },
+      {
+        "title": "Contact us",
+        "link": "/company/contact-us"
+      }
+    ]
+  }
+]
