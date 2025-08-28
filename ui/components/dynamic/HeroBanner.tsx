@@ -1,12 +1,19 @@
 import Image from 'next/image';
 import {Link} from '@/i18n/routing';
-export default function HeroBanner({ src, alt, title }) {
+
+interface HeroBannerProps {
+    src?: string;
+    alt?: string;
+    title?: string;
+}
+
+export default function HeroBanner({ src, alt, title }: HeroBannerProps) {
     if (!src && !title) return null;
     return (
         <div>
             {src && <Image
                 src={`${src}?w=1920&q=75&fm=webp`}
-                alt={alt}
+                alt={alt || ''}
                 width={1920}
                 height={1080} // Adjust based on aspect ratio
                 priority // Ensures LCP loads quickly
