@@ -16,13 +16,13 @@ interface NavigationProps {
     locale?: string;
 }
 
-export default async function Navigation({menuData, type, locale} : NavigationProps){
+export default function Navigation({menuData, type, locale} : NavigationProps){
     const menuType = type;
-    const menuDataResult = await menuData;
+    const menuDataResult = menuData;
     const menuItems: [MenuItem] = locale && Array.isArray(menuDataResult) ? menuDataResult[0][locale] : menuDataResult;
     return (
         <nav className={menuType + (menuType !== 'megamenu' ? ' w-full' : '')}>
-            <ul className="flex justify-between -mx-2">{
+            <ul className="lg:flex lg:justify-between -mx-2">{
                 menuItems.map((item, index) => (
                     <li key={index} className={(menuType !== 'megamenu' ? 'p-2' : 'pl-16')}>
                         {item.link ? (

@@ -13,9 +13,9 @@ interface SubNavigationProps {
     type: string;
 }
 
-export default async function SubNavigationItem({children, type} : SubNavigationProps){
-    const navigationChildren = await children;
-    const menuType = await type;
+export default function SubNavigationItem({children, type} : SubNavigationProps){
+    const navigationChildren = children;
+    const menuType = type;
     return (
         <ul className={(menuType === 'megamenu' ? 'hidden ' : 'block ') + menuType + " submenu"}>
             {
