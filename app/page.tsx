@@ -9,7 +9,7 @@ export default function HomePage() {
               <div className="flex justify-center items-center h-16">
                 <div className="flex items-center gap-3">
                   <div className="flex-shrink-0">
-                    <Image src="/download.svg" alt="Cleareds Logo" width={40} height={40} />
+                    <Image src="/cleareds_cropped.svg" alt="Cleareds Logo" width={40} height={40} />
                   </div>
                   <span className="text-2xl font-bold text-green-600">leareds</span>
                 </div>
@@ -146,7 +146,7 @@ export default function HomePage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center">
                 <div className="mb-8 flex items-center justify-center gap-3">
-                  <Image src="/download.svg" alt="Cleareds Logo" width={32} height={32} />
+                  <Image src="/cleareds_cropped.svg" alt="Cleareds Logo" width={32} height={32} />
                   <span className="text-2xl font-bold text-green-400">leareds</span>
                 </div>
                 <p className="text-gray-400 mb-4">
