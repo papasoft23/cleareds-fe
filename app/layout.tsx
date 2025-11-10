@@ -2,8 +2,11 @@ import './globals.css';
 import { ReactNode } from 'react';
 
 export const metadata = {
-  title: 'Cleareds - Ethical software for humans, pets, and the planet',
-  description: 'Vegan-first apps, pet-friendly bots, and AI tools for conscious e-commerce. Privacy-first, kind, and credible solutions.',
+  title: 'Cleareds - Ethical software for humans, animals, and the planet',
+  description: 'Vegan-first apps, animal-friendly bots, and AI tools for conscious e-commerce. Privacy-first, kind, and credible solutions.',
+  icons: {
+    icon: '/logo.svg',
+  },
 };
 
 export default function RootLayout({
