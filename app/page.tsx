@@ -9,9 +9,9 @@ export default function HomePage() {
               <div className="flex justify-center items-center h-16">
                 <div className="flex items-center gap-3">
                   <div className="flex-shrink-0">
-                    <Image src="/logo.svg" alt="Cleareds Logo" width={40} height={40} />
+                    <Image src="/download.svg" alt="Cleareds Logo" width={40} height={40} />
                   </div>
-                  <span className="text-2xl font-bold text-green-600">Cleareds</span>
+                  <span className="text-2xl font-bold text-green-600">leareds</span>
                 </div>
               </div>
             </div>
@@ -146,8 +146,8 @@ export default function HomePage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center">
                 <div className="mb-8 flex items-center justify-center gap-3">
-                  <Image src="/logo.svg" alt="Cleareds Logo" width={32} height={32} />
-                  <span className="text-2xl font-bold text-green-400">Cleareds</span>
+                  <Image src="/download.svg" alt="Cleareds Logo" width={32} height={32} />
+                  <span className="text-2xl font-bold text-green-400">leareds</span>
                 </div>
                 <p className="text-gray-400 mb-4">
                   Ethical software for humans, animals, and the planet.

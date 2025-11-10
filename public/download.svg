@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="title">Cleareds technical bracket logo</title>
+  <desc id="desc">Minimal bracketed C with dual blue and green strokes on a transparent background.</desc>
+  <defs>
+    <style>
+      :root {
+        --blue:#1769D1;   /* tech blue */
+        --green:#17B07A;  /* clean green */
+        --ink:#111;    /* neutral dark */
+      }
+      .t{ vector-effect: non-scaling-stroke; }
+    </style>
+  </defs>
+
+  <!-- Bracket shape (left and right) -->
+  <g stroke="var(--ink)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" class="t">
+    <!-- Left bracket -->
+    <path d="M12 12v64"></path>
+    <path d="M12 12h64"></path>
+    <path d="M12 208v64"></path>
+    <path d="M12 272h64"></path>
+    <!-- Right bracket -->
+    <path d="M226 12v64"></path>
+    <path d="M226 12h-64"></path>
+    <path d="M226 208v64"></path>
+    <path d="M226 272h-64"></path>
+  </g>
+
+  <!-- Dual “C” in the center -->
+  <path d="M190 215a96 96 0 1 1 0-152" fill="none" stroke="var(--blue)" stroke-width="24" stroke-linecap="round" class="t"></path>
+  <path d="M190 205a84 84 0 1 1 0-128" fill="none" stroke="var(--green)" stroke-width="14" stroke-linecap="round" class="t"></path>
+
+</svg>
