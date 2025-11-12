@@ -1,34 +1,49 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2.00 -2.00 230.00 276.00" role="img" aria-labelledby="title desc">
-  <title id="title">Cleareds technical bracket logo</title>
-  <desc id="desc">Minimal bracketed C with dual blue and green strokes on a transparent background.</desc>
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Cleareds bracketed C</title>
+  <desc id="desc">Four rounded corner brackets with a blue outer C stroke and a green inner C stroke.</desc>
+
   <defs>
     <style>
-      :root {
-        --blue:#1769D1;   /* tech blue */
-        --green:#17B07A;  /* clean green */
-        --ink:#111;    /* neutral dark */
+      :root{
+      --blue:#1769D1;   /* outer C */
+      --green:#17B07A;  /* inner C */
+      --ink:#111111;    /* corner brackets */
       }
       .t{ vector-effect: non-scaling-stroke; }
     </style>
   </defs>
 
-  
-  <g stroke="var(--ink)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" class="t">
-    
-    <path d="M12 12v64" />
-    <path d="M12 12h64" />
-    <path d="M12 208v64" />
-    <path d="M12 272h64" />
-    
-    <path d="M226 12v64" />
-    <path d="M226 12h-64" />
-    <path d="M226 208v64" />
-    <path d="M226 272h-64" />
+  <!-- Corner brackets -->
+  <g fill="none" stroke="var(--ink)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" class="t">
+    <!-- top-left -->
+    <path d="M56 96V56H96"/>
+    <!-- top-right -->
+    <path d="M200 96V56H160"/>
+    <!-- bottom-left -->
+    <path d="M56 160V200H96"/>
+    <!-- bottom-right -->
+    <path d="M200 160V200H160"/>
   </g>
 
-  
-  <path d="M190 215a96 96 0 1 1 0-152" fill="none" stroke="var(--blue)" stroke-width="24" stroke-linecap="round" class="t" />
-  <path d="M190 205a84 84 0 1 1 0-128" fill="none" stroke="var(--green)" stroke-width="14" stroke-linecap="round" class="t" />
+  <!-- Outer C (blue) -->
+  <!-- From ~2 o'clock to ~8 o'clock, sweeping counter-clockwise around the left -->
+  <path
+          d="M204 84
+       A88 88 0 1 0 204 172"
+          fill="none"
+          stroke="var(--blue)"
+          stroke-width="28"
+          stroke-linecap="round"
+          class="t"/>
 
+  <!-- Inner C (green), concentric and slightly smaller radius -->
+  <path
+          d="M187 94
+       A68 68 0 1 0 187 162"
+          fill="none"
+          stroke="var(--green)"
+          stroke-width="18"
+          stroke-linecap="round"
+          class="t"/>
 </svg>
