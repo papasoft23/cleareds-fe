@@ -11,7 +11,7 @@ export default function HomePage() {
                   <div className="flex-shrink-0">
                     <Image src="/download.svg" alt="Cleareds Logo" width={40} height={40} />
                   </div>
-                  <span className="text-2xl font-bold text-green-600">leareds</span>
+                  <span className="text-2xl ml-[-10px] font-bold text-green-600">leareds</span>
                 </div>
               </div>
             </div>
