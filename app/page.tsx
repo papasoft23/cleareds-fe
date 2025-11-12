@@ -31,11 +31,11 @@ export default function HomePage() {
                   <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
                     Vegan-first apps, animal-friendly bots, and AI tools for conscious e-commerce.
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                  <!--<div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <button className="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors">
-                      Get Early Access
+                      Get In Touch
                     </button>
-                  </div>
+                  </div>-->
                 </div>
               </div>
             </section>
