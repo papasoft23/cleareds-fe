@@ -142,7 +142,7 @@ export default function HomePage() {
               <div className="text-center">
                 <div className="mb-8 flex items-center justify-center gap-3">
                   <Image src="/download.svg" alt="Cleareds Logo" width={32} height={32} />
-                  <span className="text-2xl font-bold text-green-400">leareds</span>
+                  <span className="text-2xl ml-[-10px] font-bold text-green-400">leareds</span>
                 </div>
                 <p className="text-gray-400 mb-4">
                   Ethical software for humans, animals, and the planet.

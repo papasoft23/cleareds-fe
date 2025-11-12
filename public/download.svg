@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
+     width="32" height="32"
      viewBox="0 0 256 256"
      preserveAspectRatio="xMidYMid meet"
      role="img" aria-label="PlantsPack C mark">
   <defs>
     <style>
       :root{
-      --blue:#1769D1;
-      --green:#17B07A;
+      --blue:#1769D1;   /* outer C */
+      --green:#17B07A;  /* inner C */
       }
-      .t{ vector-effect: non-scaling-stroke; }
     </style>
   </defs>
 
   <!-- Outer C (blue) -->
   <path d="M204 84 A88 88 0 1 0 204 172"
         fill="none" stroke="var(--blue)" stroke-width="30"
-        stroke-linecap="round" class="t"/>
+        stroke-linecap="round"/>
 
   <!-- Inner C (green) -->
   <path d="M187 94 A68 68 0 1 0 187 162"
         fill="none" stroke="var(--green)" stroke-width="20"
-        stroke-linecap="round" class="t"/>
+        stroke-linecap="round"/>
 </svg>
