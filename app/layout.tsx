@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Cleareds - Ethical software for humans, animals, and the planet',
   description: 'Vegan-first apps, animal-friendly bots, and AI tools for conscious e-commerce. Privacy-first, kind, and credible solutions.',
   icons: {
-    icon: '/cleareds_cropped.svg',
+    icon: '/download.svg',
   },
 };
 
