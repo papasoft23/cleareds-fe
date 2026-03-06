@@ -22,9 +22,9 @@ import NavigationWrapper from "@/ui/client/NavigationWrapper";
 
 export type LayoutParams = {
     children: React.ReactNode,
-    params: {
+    params: Promise<{
         locale: string
-    }
+    }>
 };
 
 export default async function LocaleLayout(
