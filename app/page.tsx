@@ -80,7 +80,7 @@ export default function HomePage() {
                     Our Projects
                   </h2>
                   <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                    Ethical solutions for indie founders, animal businesses, and conscious consumers.
+                    Independent web projects built for real communities — from vegan lifestyle to cultural heritage.
                   </p>
                 </div>
                 <div className="grid md:grid-cols-2 gap-8">
