@@ -77,37 +77,65 @@ export default function HomePage() {
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
                   <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                    Our Products
+                    Our Projects
                   </h2>
                   <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                     Ethical solutions for indie founders, animal businesses, and conscious consumers.
                   </p>
                 </div>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                    <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                      <span className="text-xl">🛒</span>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <a
+                    href="https://plantspack.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
+                  >
+                    <div className="overflow-hidden">
+                      <Image
+                        src="/plantspack-screenshot.png"
+                        alt="PlantsPack — vegan social network"
+                        width={800}
+                        height={450}
+                        className="w-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">E-commerce Tools</h3>
-                    <p className="text-gray-600 mb-4">Ethical e-commerce solutions for conscious brands.</p>
-                    <span className="text-sm text-green-600 font-medium">Coming Soon</span>
-                  </div>
-                  <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                    <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                      <span className="text-xl">🤖</span>
+                    <div className="p-6">
+                      <div className="flex items-center gap-2 mb-2">
+                        <h3 className="text-xl font-semibold text-gray-900">PlantsPack</h3>
+                        <span className="text-xs bg-green-100 text-green-700 font-medium px-2 py-0.5 rounded-full">Beta</span>
+                      </div>
+                      <p className="text-gray-600 mb-4">
+                        A vegan social network to connect with plant-based enthusiasts, discover vegan and pet-friendly places, share your green journey, and explore events around the world.
+                      </p>
+                      <span className="text-green-600 font-medium text-sm group-hover:underline">Visit plantspack.com →</span>
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Animal-Friendly Bots</h3>
-                    <p className="text-gray-600 mb-4">AI assistants designed with animal welfare in mind.</p>
-                    <span className="text-sm text-blue-600 font-medium">In Development</span>
-                  </div>
-                  <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                    <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                      <span className="text-xl">🌱</span>
+                  </a>
+                  <a
+                    href="https://eu-ua.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
+                  >
+                    <div className="overflow-hidden">
+                      <Image
+                        src="/eu-ua-screenshot.png"
+                        alt="EU-UA.com — Ukraine & Europe"
+                        width={800}
+                        height={450}
+                        className="w-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Vegan-First Apps</h3>
-                    <p className="text-gray-600 mb-4">Applications built with plant-based principles.</p>
-                    <span className="text-sm text-purple-600 font-medium">Planning</span>
-                  </div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-2 mb-2">
+                        <h3 className="text-xl font-semibold text-gray-900">EU-UA.com</h3>
+                        <span className="text-xs bg-blue-100 text-blue-700 font-medium px-2 py-0.5 rounded-full">Independent</span>
+                      </div>
+                      <p className="text-gray-600 mb-4">
+                        An independent initiative exploring Ukraine&apos;s deep European roots, tracking the EU accession journey, and mapping cultural connections between two continents.
+                      </p>
+                      <span className="text-blue-600 font-medium text-sm group-hover:underline">Visit eu-ua.com →</span>
+                    </div>
+                  </a>
                 </div>
               </div>
             </section>
