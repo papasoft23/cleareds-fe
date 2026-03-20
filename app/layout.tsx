@@ -2,8 +2,8 @@ import './globals.css';
 import { ReactNode } from 'react';
 
 export const metadata = {
-  title: 'Cleareds - Ethical software for humans, animals, and the planet',
-  description: 'Vegan-first apps, animal-friendly bots, and AI tools for conscious e-commerce. Privacy-first, kind, and credible solutions.',
+  title: 'Cleareds — AI-powered digital products for vegan and sustainable brands',
+  description: 'We build landing pages, MVPs, and web products for purpose-driven brands in days, not months. AI-native delivery, modern infrastructure, ongoing support.',
   icons: {
     icon: '/download.svg',
   },
