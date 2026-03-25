@@ -59,6 +59,7 @@ export default async function LocaleLayout(
                         <Navigation type={"columns"} menuData={FooterMenuDataSource}/>
                         <p className="min-w-full flex-1 flex py-4 my-4 text-s">&copy; Cleareds - clean e-commerce
                             deciding solutions</p>
+                        <p className="min-w-full flex-1 flex py-2 text-xs text-gray-500">Company number (Belgium): 1026.978.194</p>
                     </div>
                 </footer>
             </CartProvider>

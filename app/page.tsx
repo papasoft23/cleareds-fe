@@ -722,6 +722,9 @@ export default function HomePage() {
             <p className="text-xs text-gray-500 text-center">
               &copy; 2025 Cleareds. Building modern digital products for purpose-driven brands.
             </p>
+            <p className="text-xs text-gray-500 text-center mt-2">
+              Company number (Belgium): 1026.978.194
+            </p>
           </div>
         </div>
       </footer>
