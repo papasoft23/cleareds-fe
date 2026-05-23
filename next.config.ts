@@ -1,13 +1,9 @@
 import type { NextConfig } from "next";
-import createNextIntlPlugin from 'next-intl/plugin';
 
-const withNextIntl = createNextIntlPlugin();
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
     images: {
-        domains: ['images.ctfassets.net','uat.byredo.com'], // Contentful images to work with Next/image
+        domains: ['images.ctfassets.net', 'uat.byredo.com'],
     },
 };
 
-export default withNextIntl(nextConfig);
+export default nextConfig;

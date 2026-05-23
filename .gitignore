@@ -38,3 +38,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# side-product code kept locally only (not built on Vercel)
+/app/[locale]
+/app/api
+/context
+/dummydata
+/i18n
+/integrations
+/messages
+/middleware.ts
+/ui
