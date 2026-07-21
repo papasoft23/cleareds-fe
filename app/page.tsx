@@ -564,7 +564,7 @@ export default function HomePage() {
                 Cleareds is founder-led with senior engineering and product experience. Here are projects we&apos;ve built and shipped.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               <a
                 href="https://plantspack.com"
                 target="_blank"
@@ -618,6 +618,34 @@ export default function HomePage() {
                   </p>
                   <span className="text-brand-600 font-medium text-sm mt-3 inline-flex items-center gap-1 group-hover:underline">
                     eu-ua.com <ArrowRight className="w-4 h-4" />
+                  </span>
+                </div>
+              </a>
+              <a
+                href="https://reelfleur.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-white rounded-xl overflow-hidden hover:shadow-lg transition-shadow border border-gray-100"
+              >
+                <div className="overflow-hidden">
+                  <Image
+                    src="/reelfleur-screenshot.jpg"
+                    alt="Reelfleur — promo videos from your exact files"
+                    width={800}
+                    height={450}
+                    className="w-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center gap-2 mb-2">
+                    <h3 className="text-lg font-semibold text-ink">Reelfleur</h3>
+                    <span className="text-xs bg-brand-100 text-brand-700 font-medium px-2 py-0.5 rounded-full">Live</span>
+                  </div>
+                  <p className="text-gray-600 text-sm">
+                    An AI-powered studio that turns your exact screenshots, logos, and icons into polished promo videos — pixel-perfect, never AI-repainted.
+                  </p>
+                  <span className="text-brand-600 font-medium text-sm mt-3 inline-flex items-center gap-1 group-hover:underline">
+                    reelfleur.com <ArrowRight className="w-4 h-4" />
                   </span>
                 </div>
               </a>
@@ -876,8 +904,16 @@ export default function HomePage() {
             </a>
           </div>
           <div className="border-t border-white/10 mt-8 pt-8">
+            <div className="flex justify-center gap-6 mb-4 text-sm">
+              <a href="/privacy" className="text-white/60 hover:text-white transition-colors">
+                Privacy Policy
+              </a>
+              <a href="/terms" className="text-white/60 hover:text-white transition-colors">
+                Terms of Service
+              </a>
+            </div>
             <p className="text-xs text-white/40 text-center">
-              &copy; 2025 Cleareds. Building modern digital products for purpose-driven brands.
+              &copy; 2026 Cleareds. Building modern digital products for purpose-driven brands.
             </p>
             <p className="text-xs text-white/40 text-center mt-2">
               Company number (Belgium): 1026.978.194
